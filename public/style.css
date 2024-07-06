@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    max-height: 700px;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    padding: 8rem 4rem;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+input{
+    padding: 1rem;
+    outline: none;
+    border: 1px solid beige;
+    border-radius: 5px;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    width: 12rem;
+    align-self: center;
+    font: 400 1rem sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
